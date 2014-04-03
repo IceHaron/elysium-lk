@@ -1,0 +1,6 @@
+<Files ~ ".txt">
+Order allow,deny
+Deny from all
+</Files>
+RewriteEngine on
+RewriteRule ^screenshot-03-03-12\.bmp$ img.php

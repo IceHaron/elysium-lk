@@ -1,0 +1,182 @@
+groups:
+    default:
+        default: true
+        permissions:
+        - worldedit.wand
+        - worldguard.region.wand
+        - uhome.crossworld
+        - mywarp.warp.basic.warp
+        - -uhome.own.invite
+        - hatme.hat
+        - uhome.own
+        - worldedit.wand.toggle
+        - worldedit.selection.*
+        - mywarp.warp.basic.list
+        - worldguard.region.list.own
+        - ChestShop.shop.buy
+        - ChestShop.shop.sell
+        - jobs.world.*
+        - jobs.join.*
+        - iConomy.payment
+        - iConomy.holdings
+        - worldguard.region.remove.own.*
+        - worldguard.region.addowner.own.*
+        - worldguard.region.removeowner.own.*
+        - worldguard.region.addmember.own.*
+        - worldguard.region.removemember.own.*
+        - worldguard.region.flag.flags.chest-access.*
+        - worldguard.region.flag.flags.pistons.*
+        - worldguard.region.flag.flags.pvp.*
+        - worldguard.region.flag.flags.greeting.*
+        - worldguard.region.flag.flags.farewell.*
+        - worldguard.region.flag.flags.use.*
+        - worldguard.region.flag.flags.lava-flow.*
+        - worldguard.region.flag.flags.tnt.*
+        - worldguard.region.flag.regions.own.*
+        - worldguard.region.claim
+        - worldguard.region.select.*
+        - worldguard.region.info.*
+        - commandbook.msg
+        - commandbook.spawn
+        - commandbook.time.check
+        - commandbook.who
+        prefix: '[&3Игрок&f]&7'
+    admin:
+        permissions:
+        - '*'
+        prefix: '[&4Администратор&f]&7'
+    moder:
+        inheritance:
+        - gvip
+        permissions:
+        - commandbook.broadcast
+        - mmp.bypass
+        - worldedit.navigation.thru
+        - useCheats.*
+        - worldedit.history.undo
+        - worldedit.regen
+        - commandbook.heal
+        - commandbook.god
+        - ic2.personalsafe.access
+        - commandbook.time
+        - worldedit.butcher
+        - commandbook.clear
+        - commandbook.teleport
+        - commandbook.teleport.other
+        - ultraban.*
+        - commandbook.locations.coords
+        - OpenInv.*
+        - commandbook.weather
+        - uhome.all
+        - vanish.*
+        - worldguard.*
+        prefix: '[&2Модератор&f]&7'
+    vip:
+        inheritance:
+        - default
+        permissions:
+        - uhome.own.invite
+        - commandbook.call
+        - uhome.bypass.cooldown
+        - ChestShop.shop.create
+        - simplereserve.enter.full
+        - uhome.limit.e
+        - uhome.own.uninvite
+        - chatmanager.chat.color
+        - hatme.norestrict
+        prefix: '[&6VIP&7]'
+    gvip:
+        inheritance:
+        - vip
+        permissions:
+        - commandbook.heal
+        - worldborder.bypass
+        - uhome.limit.d
+        - worldedit.navigation.jumpto
+        prefix: '[&6GoldVIP&f]&7'
+users:
+    Zaidik:
+        group:
+        - admin
+        prefix: '[&eÃë.Àäìèíèñòðàòîð&f]&7'
+    Isinka:
+        group:
+        - admin
+        prefix: '[&2ÎÒÊÀÒÀÀÀÀ&f]'
+    airbreaker:
+        group:
+        - admin
+        permissions:
+        - mmp.bypass
+        prefix: '[&3Èãðîê&f]&7'
+    _Gizmo:
+        group:
+        - admin
+    genk0:
+        group:
+        - admin
+    Dark:
+        group:
+        - moder
+        prefix: '[&5Старший Ìодератор&f]&7'
+        permissions:
+        - adminEnergy
+        - hwid.alt
+        - mywarp.*
+        - mmp.bypass
+        - worldedit.*
+        - commandbook.give
+    BrokenSoul:
+        group:
+        - moder
+    Scorpi:
+        group:
+        - moder
+        permissions:
+        - hwid.getinfo
+        - hwid.alt
+    Ziro13:
+        group:
+        - default
+        prefix: '&c<<IC Clan>>'
+    _Goldik_:
+        group:
+        - gvip
+        prefix: '[&2Guide&f]'
+    iii:
+        group:
+        - vip
+        prefix: '[&8Þâåëèð&f]'
+    bane:
+        group:
+        - gvip
+    CREEPER:
+        group:
+        - vip
+        prefix: '[&aТоргаш&f]&b'
+    QponaP:
+        group:
+        - moder
+    Zombie001:
+        group:
+        - moder
+    Price:
+        prefix: '[&9Остров&6Украина&f]&7'
+    Woolio1:
+        group:
+        - vip
+    LooToS:
+        group:
+        - gvip
+    Woodie1:
+        group:
+        - vip
+    DezmonD36:
+        group:
+        - moder
+        permissions:
+        - mmp.bypass
+worlds:
+    world_the_end:
+        inheritance:
+        - world

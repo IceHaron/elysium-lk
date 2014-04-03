@@ -1,0 +1,69 @@
+   body {
+		background: #EEEEEE;
+		margin-top: 60px;
+    	font: 12px "Trebuchet MS", Arial; 
+   }
+   h2 {
+    	font-size: 20px;
+    	color: black;
+    	margin-top: 20; 
+   }
+   a {
+		text-decoration:none;
+		font-style: italic;
+		border-bottom:1px dashed black;
+   }
+   #skin{
+   
+   float: left;
+   }
+   #middle{
+   margin-left: 310px;
+   padding-top: 260px;
+   }
+   #cloak {
+
+   margin-top: -286px; 
+	float: right;
+   }
+   #skimg{
+   height: 180px;
+   text-align: center;
+   }
+   #container {   
+
+    	width: 1000px;
+    	margin: 0 auto;
+    	border-right: 1px dashed gray;
+   }
+   #header {
+    	border-top: 1px dashed gray;
+	border-bottom: 1px dashed gray;
+	border-left: 1px dashed gray;
+    	font-size: 32px;
+    	text-align: left;
+    	padding: 15px;
+    	background: url(http://www.elysium-game.ru/templates/Polished/images/logo.png) no-repeat top right;
+    	color: #000;
+   }
+   #sidebar {
+     	border-right: 1px dashed gray;
+	border-left: 1px dashed gray;
+	margin-top: 10px; 
+	width: 200px;
+	padding: 0 10px;
+	float: left;
+   }
+   #content {
+    	padding: 10px;
+		padding-top: 0px;
+   }
+   #footer {
+	border: 1px  dashed gray;
+	border-right: 0;
+	border-top: 0;
+    	background: #000;
+    	color: #fff;
+    	padding: 5px;
+    	clear: left;
+   }

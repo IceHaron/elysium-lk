@@ -1,0 +1,6 @@
+AddDefaultCharset UTF-8;
+php_flag register_globals off
+<Files ears.txt>
+order allow,deny
+allow from all
+</Files>
